@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Reader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        QR Reader
+    </div>
+    <div class="camera-section">
+        <div class="square-area" id="reader"></div>
+    </div>
+    <div class="divider"></div>
+    <div class="result-section">
+        <strong>Результат</strong>
+        <input type="text" id="result" style="width: 80%; padding: 10px; text-align: center; font-size: 18px;" readonly>
+    </div>
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+    <script src="qr-reader.js"></script>
+</body>
+</html>
